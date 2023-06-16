@@ -1,0 +1,61 @@
+.videoFooter{
+  position: relative;
+  bottom: 20%; /*debaixo p cima, sempre confundo --' */
+  color: white;
+  margin-left: 30px;
+}
+
+.videoFooter__text h3{
+  padding-bottom: 20px;
+}
+
+.videoFooter__text p{
+  padding-bottom: 20px;
+}
+
+.videoFooterIcon{
+ 
+}
+
+.videoFooterMusic_title{
+  width: 80%;
+}
+
+.videoFooterMusic_title p{
+  animation: moveTitle 2s infinite linear;
+  
+}
+
+.videoFooter__music{
+  display: flex;
+}
+
+.videoFooter__disc{
+  animation: spinTheDisc 3s infinite linear;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  height: 50px;
+  filter: invert(1);
+}
+
+@keyframes spinTheDisc {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }  
+}
+
+@keyframes moveTitle {
+  0%{
+    transform: translate(70%); /*(+ right, - left)*/
+  }
+  100%{
+    transform: translate(-1%); /*(+ right, - left)*/
+  }
+  
+}
+
+/*OBS: Por enquanto preferi manipular os valores do transformador do moveTitle ao invés de implementar em 100% e usar o parâmetro overflow-x hidden no da div do texto. Conforme continuar o projeto vou analisar o q fica melhor */
