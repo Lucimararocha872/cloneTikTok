@@ -54,4 +54,14 @@
   
 }
 
+
+@media only screen and (max-width: 440px){
+  .videoFooter{
+    bottom: 22%;
+  }
+  .videoFooterMusic_title{
+    width: 78%;
+  }
+}
+
 /*OBS: Por enquanto preferi manipular os valores do transformador do moveTitle ao invés de implementar em 100% e usar o parâmetro overflow-x hidden no da div do texto. Conforme continuar o projeto vou analisar o q fica melhor */
