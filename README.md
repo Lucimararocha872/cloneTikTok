@@ -1,3 +1,32 @@
+# Introduction
+
+I present to you a tiktok interface clone :clapper:, made with the tecnologies:
+
+- **HTML**;
+-  **CSS**;
+-  **JavaScript**
+-  **React**.
+
+## Demo
+
+[Click here and take a look the app loading in your browser](https://clone-tiktok-3ef5c.web.app/)
+
+
+ During project development, was implementade some functions: 
+ - To like de videos;
+ - To pass to another video;
+ - Silenciate the video just with a toouch in the screen! 
+
+:floppy_disk: The database used to hosting the videos was **Firebase**.
+
+![firebase_screen_tt](https://github.com/Lucimararocha872/cloneTikTok/assets/96544129/45d97a61-fdee-4b43-82ee-71513e3e3703)
+
+
+
+PS: The layout configuration was thought for mobile devices, like the socials apps asks :iphone:
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
